@@ -1,0 +1,185 @@
+/* Add styles here */
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #f0f9ff;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+header {
+    background-color: #5bc0de;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+h1 {
+    color: #fff;
+    font-size: 32px;
+    margin: 0;
+}
+.slide-container {
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    position: relative;
+    min-height: 400px;
+}
+.slide {
+    display: none;
+    text-align: center;
+    padding: 20px;
+}
+.slide.active {
+    display: block;
+}
+.slide-content {
+    min-height: 300px;
+}
+.slide-title {
+    color: #5bc0de;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.slide-img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin: 15px 0;
+}
+.example {
+    background-color: #fffacd;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 15px 0;
+    font-size: 20px;
+}
+.example-informal {
+    background-color: #d1f0c2;
+}
+.example-formal {
+    background-color: #c2e0f0;
+}
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+button {
+    background-color: #5bc0de;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    transition: all 0.3s;
+}
+button:hover {
+    background-color: #31b0d5;
+    transform: scale(1.05);
+}
+button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+.activity {
+    background-color: #ffeecc;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 15px 0;
+}
+.character {
+    width: 100px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+.progress {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.progress-dot {
+    width: 15px;
+    height: 15px;
+    background-color: #ddd;
+    border-radius: 50%;
+    margin: 0 5px;
+}
+.progress-dot.active {
+    background-color: #5bc0de;
+}
+.debate-section {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+.debate-side {
+    width: 48%;
+    border-radius: 10px;
+    padding: 15px;
+}
+.for-side {
+    background-color: #d1f0c2;
+}
+.against-side {
+    background-color: #f0c2c2;
+}
+.highlight {
+    font-weight: bold;
+    color: #e74c3c;
+}
+.interactive-area {
+    margin: 20px 0;
+    padding: 15px;
+    background-color: #e3f2fd;
+    border-radius: 10px;
+}
+.diary-comparison {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+.diary {
+    width: 48%;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.quiz-question {
+    margin-bottom: 15px;
+}
+.check-btn {
+    background-color: #5bc0de;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.word {
+    display: inline-block;
+    margin: 0 3px;
+    cursor: default;
+}
+.word.linkable {
+    cursor: pointer;
+}
+#check-matches, #check-words {
+    background-color: #5bc0de;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
